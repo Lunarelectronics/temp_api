@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "max_order_items": 10,
+    "max_order_item_quantities": 5
+  },
+  "categories": [
+    { "id": 1, "label": "Burger", "order": 5 },
+    { "id": 2, "label": "Pizza", "order": 2 },
+    { "id": 3, "label": "Drinks", "order": 3 },
+    { "id": 4, "label": "Desserts", "order": 4 },
+    { "id": 5, "label": "Fries", "order": 1 },
+    { "id": 6, "label": "Pizza1", "order": 6 },
+    { "id": 7, "label": "Drinks1", "order": 7 },
+    { "id": 8, "label": "Desserts1", "order": 8 },
+    { "id": 9, "label": "Fries1", "order": 9 }
+  ],
+  "subcategories": [
+    { "id": 1, "category_id": 1, "label": "Cheese Burger", "order": 1, "price": 10 },
+    { "id": 2, "category_id": 1, "label": "Veg Burger", "order": 2, "price": 20 },
+    { "id": 3, "category_id": 2, "label": "Margherita Pizza", "order": 1, "price": 30 },
+    { "id": 4, "category_id": 2, "label": "Pepperoni Pizza", "order": 2, "price": 50 },
+    { "id": 5, "category_id": 3, "label": "Coke", "order": 1, "price": 60 },
+    { "id": 6, "category_id": 3, "label": "Pepsi", "order": 2, "price": 80 },
+    { "id": 7, "category_id": 4, "label": "Chocolate Cake", "order": 1, "price": 50 },
+    { "id": 8, "category_id": 4, "label": "Vanilla Cake", "order": 2, "price": 26 },
+    { "id": 9, "category_id": 5, "label": "Coke", "order": 2, "price": 20 },
+    { "id": 10, "category_id": 5, "label": "French Fries", "order": 1, "price": 36 },
+    { "id": 11, "category_id": 5, "label": "Chocolate", "order": 4, "price": 10 },
+    { "id": 12, "category_id": 5, "label": "Pepsi", "order": 3, "price": 5 },
+    { "id": 13, "category_id": 5, "label": "Veg Burger", "order": 5, "price": 20 }
+  ]
+}
