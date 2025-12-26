@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "max_order_items": 10,
+    "max_order_item_quantities": 5
+  },
+  "categories": [
+    { "id": 1, "label": "Burger", "order": 5 }
+  ],
+  "subcategories": [
+    { "id": 13, "category_id": 5, "label": "Veg Burger", "order": 5, "price": 20 }
+  ]
+}
