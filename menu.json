@@ -2,8 +2,8 @@
   "success": true,
   "data": {
     "settings": {
-      "max_order_items": "10",
-      "max_order_item_quantities": "5"
+      "max_order_items": 10,
+      "max_order_item_quantities": 5
     },
     "categories": [
       {
