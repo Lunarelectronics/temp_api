@@ -9,7 +9,7 @@
       {
         "id": 1,
         "label": "Burger",
-        "sort_order": 5
+        "sort_order": 1
       },
       {
         "id": 2,
@@ -29,7 +29,7 @@
       {
         "id": 5,
         "label": "Fries",
-        "sort_order": 1
+        "sort_order": 5
       },
       {
         "id": 6,
