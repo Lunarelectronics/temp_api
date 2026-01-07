@@ -1,59 +1,213 @@
-## API Endpoints
-
-### 1. Get Vending Machine Data
-
-Fetch all configuration data, product categories, and available products for a specific vending machine.
-
-**Endpoint:** `GET /vending-machine/{device_code}/data`
-
-**Parameters:**
-- `device_code` (string, required) - Unique device identifier (e.g., "VM001", "000111")
-
-**Response Format:**
-```json
 {
   "success": true,
   "data": {
     "settings": {
-      "max_order_items": "10",
-      "max_order_item_quantities": "5"
+      "max_order_items": 10,
+      "max_order_item_quantities": 5
     },
     "categories": [
       {
         "id": 1,
         "label": "Burger",
-        "sort_order": 1
+        "sort_order": 5
       },
       {
         "id": 2,
         "label": "Pizza",
         "sort_order": 2
+      },
+      {
+        "id": 3,
+        "label": "Drinks",
+        "sort_order": 3
+      },
+      {
+        "id": 4,
+        "label": "Desserts",
+        "sort_order": 4
+      },
+      {
+        "id": 5,
+        "label": "Fries",
+        "sort_order": 1
+      },
+      {
+        "id": 6,
+        "label": "Pizza1",
+        "sort_order": 6
+      },
+      {
+        "id": 7,
+        "label": "Drinks1",
+        "sort_order": 7
+      },
+      {
+        "id": 8,
+        "label": "Desserts1",
+        "sort_order": 8
+      },
+      {
+        "id": 9,
+        "label": "Fries1",
+        "sort_order": 9
       }
     ],
     "subcategories": [
       {
-        "id": 5,
+        "id": 1,
         "category_id": 1,
         "label": "Cheese Burger",
         "slot_name": "A1",
         "sort_order": 1,
-        "price": 15.00,
+        "price": 10,
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Cheese+Burger&bg_color=ffcc99&text_color=000000"
       },
       {
-        "id": 6,
+        "id": 2,
         "category_id": 1,
         "label": "Veg Burger",
         "slot_name": "A2",
         "sort_order": 2,
-        "price": 20.00,
+        "price": 20,
         "max_stock": 50,
-        "available_stock": 15,
+        "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/veg-burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Veg+Burger&bg_color=ccffcc&text_color=000000"
+      },
+      {
+        "id": 3,
+        "category_id": 2,
+        "label": "Margherita Pizza",
+        "slot_name": "B1",
+        "sort_order": 1,
+        "price": 30,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 4,
+        "category_id": 2,
+        "label": "Pepperoni Pizza",
+        "slot_name": "B2",
+        "sort_order": 2,
+        "price": 50,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 5,
+        "category_id": 3,
+        "label": "Coke",
+        "slot_name": "C1",
+        "sort_order": 1,
+        "price": 60,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 6,
+        "category_id": 3,
+        "label": "Pepsi",
+        "slot_name": "C2",
+        "sort_order": 2,
+        "price": 80,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 7,
+        "category_id": 4,
+        "label": "Chocolate Cake",
+        "slot_name": "D1",
+        "sort_order": 1,
+        "price": 50,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 8,
+        "category_id": 4,
+        "label": "Vanilla Cake",
+        "slot_name": "D2",
+        "sort_order": 2,
+        "price": 26,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 9,
+        "category_id": 5,
+        "label": "Coke",
+        "slot_name": "E2",
+        "sort_order": 2,
+        "price": 20,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 10,
+        "category_id": 5,
+        "label": "French Fries",
+        "slot_name": "E1",
+        "sort_order": 1,
+        "price": 50,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 11,
+        "category_id": 5,
+        "label": "Chocolate",
+        "slot_name": "E4",
+        "sort_order": 4,
+        "price": 10,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 12,
+        "category_id": 5,
+        "label": "Pepsi",
+        "slot_name": "E3",
+        "sort_order": 3,
+        "price": 5,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
+      },
+      {
+        "id": 13,
+        "category_id": 5,
+        "label": "Veg Burger",
+        "slot_name": "E5",
+        "sort_order": 5,
+        "price": 20,
+        "max_stock": 50,
+        "available_stock": 20,
+        "slot_status": "available",
+        "img_url": ""
       }
     ]
   },
@@ -62,218 +216,3 @@ Fetch all configuration data, product categories, and available products for a s
     "timestamp": "2026-01-02T10:30:45+00:00"
   }
 }
-```
-
-
-
-**Success Response Code:** `200 OK`
-
-**Error Responses:**
-
-1. Device Not Found (404)
-```json
-{
-  "success": false,
-  "message": "Device not found",
-  "error_code": "DEVICE_NOT_FOUND"
-}
-```
-
-2. Internal Server Error (500)
-```json
-{
-  "success": false,
-  "message": "An error occurred while fetching device data",
-  "error_code": "INTERNAL_ERROR"
-}
-```
-
-
-
-### 2. Create Transaction
-
-Create a new transaction when a customer places an order. This puts stock on hold and returns transaction details.
-
-**Endpoint:** `POST /vending-machine/{device_code}/create-transaction`
-
-**Parameters:**
-- `device_code` (string, required) - Unique device identifier
-
-**Request Headers:**
-```
-Content-Type: application/json
-Accept: application/json
-```
-
-**Request Body:**
-```json
-{
-  "items": [
-    {
-      "slot_name": "A1",
-      "product_id": 5,
-      "quantity": 2,
-      "unit_price": 15.00
-    },
-    {
-      "slot_name": "A2",
-      "product_id": 6,
-      "quantity": 1,
-      "unit_price": 20.00
-    }
-  ],
-  "payment_method": "upi",
-  "total_amount": 50.00
-}
-```
-
-**Request Body Fields:**
-
-| Field | Type | Required | Description |
-|-------|------|----------|-------------|
-| items | array | Yes | Array of order items (minimum 1) |
-| items[].slot_name | string | Yes | Slot code (e.g., "A1", "B3") |
-| items[].product_id | integer | Yes | Product ID from subcategories |
-| items[].quantity | integer | Yes | Quantity to order (minimum 1) |
-| items[].unit_price | decimal | Yes | Price per unit (must match database) |
-| payment_method | string | Yes | Payment method: "upi", "cash", "card", "other" |
-| total_amount | decimal | Yes | Total order amount (must match calculated total) |
-
-**Success Response (201 Created):**
-```json
-{
-  "success": true,
-  "data": {
-    "transaction_id": 123,
-    "transaction_code": "TXN-20260102-0001",
-    "status": "in_progress",
-    "device_code": "VM001",
-    "items": [
-      {
-        "slot_id": 5,
-        "slot_code": "A1",
-        "product_name": "Cheese Burger",
-        "quantity": 2,
-        "unit_price": 15.00,
-        "subtotal": 30.00
-      },
-      {
-        "slot_id": 6,
-        "slot_code": "A2",
-        "product_name": "Veg Burger",
-        "quantity": 1,
-        "unit_price": 20.00,
-        "subtotal": 20.00
-      }
-    ],
-    "total_amount": 50.00,
-    "payment_method": "upi",
-    "created_at": "2026-01-02T10:35:20+00:00"
-  },
-  "meta": {
-    "execution_time_ms": 125.45
-  }
-}
-```
-
-**Error Responses:**
-
-1. Validation Error (422)
-```json
-{
-  "success": false,
-  "message": "Validation failed",
-  "error_code": "VALIDATION_ERROR",
-  "errors": {
-    "items": ["The items field is required."],
-    "total_amount": ["The total amount must be at least 0."]
-  }
-}
-```
-
-2. Device Not Found (404)
-```json
-{
-  "success": false,
-  "message": "Device not found or inactive",
-  "error_code": "DEVICE_NOT_FOUND"
-}
-```
-
-3. Slot Not Found (404)
-```json
-{
-  "success": false,
-  "message": "Slot A1 not found or inactive",
-  "error_code": "SLOT_NOT_FOUND",
-  "details": {
-    "slot_name": "A1"
-  }
-}
-```
-
-4. Product Mismatch (400)
-```json
-{
-  "success": false,
-  "message": "Product mismatch for slot A1",
-  "error_code": "PRODUCT_MISMATCH",
-  "details": {
-    "slot_name": "A1",
-    "expected_product_id": 5,
-    "received_product_id": 7
-  }
-}
-```
-
-5. Price Mismatch (400)
-```json
-{
-  "success": false,
-  "message": "Price mismatch for Cheese Burger",
-  "error_code": "PRICE_MISMATCH",
-  "details": {
-    "slot_name": "A1",
-    "product_name": "Cheese Burger",
-    "expected_price": 15.00,
-    "received_price": 12.00
-  }
-}
-```
-
-6. Insufficient Stock (400)
-```json
-{
-  "success": false,
-  "message": "Insufficient stock for Cheese Burger",
-  "error_code": "INSUFFICIENT_STOCK",
-  "details": {
-    "slot_name": "A1",
-    "product_name": "Cheese Burger",
-    "requested": 5,
-    "available": 2
-  }
-}
-```
-
-7. Amount Mismatch (400)
-```json
-{
-  "success": false,
-  "message": "Total amount mismatch",
-  "error_code": "AMOUNT_MISMATCH",
-  "details": {
-    "expected_total": 50.00,
-    "received_total": 45.00
-  }
-}
-```
-
-8. Internal Server Error (500)
-```json
-{
-  "success": false,
-  "message": "An error occurred while creating transaction",
-  "error_code": "INTERNAL_ERROR"
-}
-```
