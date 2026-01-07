@@ -63,7 +63,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Cheese+Burger&bg_color=ffcc99&text_color=000000"
       },
       {
         "id": 2,
@@ -75,7 +75,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Veg+Burger&bg_color=ccffcc&text_color=000000"
       },
       {
         "id": 3,
@@ -87,7 +87,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Margherita+Pizza&bg_color=ff9999&text_color=000000"
       },
       {
         "id": 4,
@@ -99,7 +99,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Pepperoni+Pizza&bg_color=ffccff&text_color=000000"
       },
       {
         "id": 5,
@@ -111,7 +111,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Coke&bg_color=ccccff&text_color=000000"
       },
       {
         "id": 6,
@@ -123,7 +123,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Pepsi&bg_color=99ffff&text_color=000000"
       },
       {
         "id": 7,
@@ -135,7 +135,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Chocolate+Cake&bg_color=d9b3ff&text_color=000000"
       },
       {
         "id": 8,
@@ -147,7 +147,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Vanilla+Cake&bg_color=ffffcc&text_color=000000"
       },
       {
         "id": 9,
@@ -159,7 +159,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Coke&bg_color=ffb3b3&text_color=000000"
       },
       {
         "id": 10,
@@ -171,7 +171,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=French+Fries&bg_color=b3ffcc&text_color=000000"
       },
       {
         "id": 11,
@@ -183,7 +183,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Chocolate&bg_color=ccb3ff&text_color=000000"
       },
       {
         "id": 12,
@@ -195,7 +195,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Pepsi&bg_color=b3e6ff&text_color=000000"
       },
       {
         "id": 13,
@@ -207,7 +207,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "http://127.0.0.1:8000/storage/products/burger.jpg"
+        "img_url": "https://fpoimg.com/100x100?text=Veg+Burger&bg_color=ffe6b3&text_color=000000"
       }
     ]
   },
