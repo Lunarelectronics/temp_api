@@ -63,7 +63,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "https://raw.githubusercontent.com/lvgl/lvgl/master/examples/assets/img_cogwheel_argb.png"
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       },
       {
         "id": 2,
@@ -75,7 +75,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": ""
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       },
       {
         "id": 3,
@@ -99,7 +99,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": ""
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       },
       {
         "id": 5,
@@ -111,7 +111,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": ""
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       },
       {
         "id": 6,
