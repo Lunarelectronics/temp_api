@@ -195,7 +195,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "https://fpoimg.com/100x100?text=Pepsi&bg_color=b3e6ff&text_color=000000"
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       },
       {
         "id": 13,
@@ -207,7 +207,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "https://fpoimg.com/100x100?text=Veg+Burger&bg_color=ffe6b3&text_color=000000"
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
       }
     ]
   },
