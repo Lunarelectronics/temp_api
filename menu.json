@@ -203,11 +203,11 @@
         "label": "Veg Burger",
         "slot_name": "E5",
         "sort_order": 5,
-        "price": 20,
+        "price": 50,
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1767942008/wink_iqxp8t.png"
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1770360557/burger_usq8ch.png"
       }
     ]
   },
