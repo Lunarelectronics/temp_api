@@ -179,11 +179,11 @@
         "label": "Chocolate",
         "slot_name": "E4",
         "sort_order": 4,
-        "price": 10,
+        "price": 25,
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": "https://fpoimg.com/100x100?text=Chocolate&bg_color=ccb3ff&text_color=000000"
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1770360323/chocolate_zosksf.png"
       },
       {
         "id": 12,
