@@ -159,7 +159,7 @@
         "max_stock": 50,
         "available_stock": 20,
         "slot_status": "available",
-        "img_url": ""
+        "img_url": "https://res.cloudinary.com/dly76ooln/image/upload/v1770359777/coke_cj4lvu.png"
       },
       {
         "id": 10,
